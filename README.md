@@ -1,24 +1,28 @@
-# README
+# FizzBuzz ReadMe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Author: Richard Kellermeyer
 
-Things you may want to cover:
+##### Concerns:
 
-* Ruby version
+The exercise did take me longer than expected, and I apologize for that.
+I'm hoping that the code quality is acceptable to your company's standards.
 
-* System dependencies
+I really appreciate the opportunity to test with your team. If given the chance, I really feel like I could be an asset, despite the time it took to complete this exercise.
 
-* Configuration
+Even if the code is not up to your standards, please let me know how I could have improved, and any other advice you feel you would like to give.
 
-* Database creation
+Again, I really appreciate the opportunity that you have extended to me, and I look forward to hearing your thoughts.
 
-* Database initialization
+##### Notes:
 
-* How to run the test suite
+* Took advice from Amir and extracted the FizzBuzz logic into a module
 
-* Services (job queues, cache servers, search engines, etc.)
+* Refactored fizzer_buzzer module logic to execute faster
 
-* Deployment instructions
+* Added controller test for ensuring an Integer is passed to the controller in params
 
-* ...
+* Specs cover controller and lib/module
+
+* Database can be created by running rails db:setup, but it is NOT necessary
+
+

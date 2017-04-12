@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :fizzer do
+    member do
+      get 'bubbles'
+    end
+  end
+  get 'pages/index'
+  root to: 'pages#index'
 end
